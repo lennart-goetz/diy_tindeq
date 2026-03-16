@@ -17,6 +17,7 @@ The pcb is not tested yet, I will probably continue updating this repo after tes
 
 
 --------- Update 16.03.26 ---------------
+
 I assembled the PCB and did some testing. Soldering the mcp1727 is quite tricky. I ended up putting some soldern on the pads with a soldering iron, then adding flux and heating up the whole area with a hot air gun. 
 Ideally I would recommend using a different package LDO. (maybe the 1727 even exists in a better package?)
 
