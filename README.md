@@ -26,12 +26,18 @@ The other components are fine with some experience in SMD soldering.
 Flashing the software to the ESP32 S3 was not trivial. I used the wrong configuration (wrong flash size selected). After that the ESP ended up in a boot cycle. I had to manually bridge the boot en EN pin to bring it back into bootload mode. 
 
 Learnings: 
-use bigger package for MCP1727 or order a stencil to reflow solder the pcb
-install some Status leds for the ESP
-install some power LED for the board
-include the BMS on the pcb for the next rev of the board
-The micro USB plug has the wrong footprint. need to fix that!
-maybe put some thought into the form factor next time
-the esp32 pins closest to the antenna are quite hard to solder, if the solder tip is too small
+-use bigger package for MCP1727 or order a stencil to reflow solder the pcb
+
+-install some Status leds for the ESP
+
+-install some power LED for the board
+
+-include the BMS on the pcb for the next rev of the board
+
+-The micro USB plug has the wrong footprint. need to fix that!
+
+-maybe put some thought into the form factor next time
+
+-the esp32 pins closest to the antenna are quite hard to solder, if the solder tip is too small
 
 
