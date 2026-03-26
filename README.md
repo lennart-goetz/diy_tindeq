@@ -1,3 +1,4 @@
+#DIY Tindeq
 When training for climbing, you will come across some specialzied training tools. 
 
 Some measure the force the climber can pull on a ledge, and visualize them on a phone. 
@@ -16,7 +17,7 @@ I am using a TP4056 Module for Managing the single cell Lithium batterie. Make s
 The pcb is not tested yet, I will probably continue updating this repo after testing. 
 
 
---------- Update 16.03.26 ---------------
+##Update 16.03.26
 
 I assembled the PCB and did some testing. Soldering the mcp1727 is quite tricky. I ended up putting some soldern on the pads with a soldering iron, then adding flux and heating up the whole area with a hot air gun. 
 Ideally I would recommend using a different package LDO. (maybe the 1727 even exists in a better package?)
@@ -40,4 +41,11 @@ Learnings:
 
 -the esp32 pins closest to the antenna are quite hard to solder, if the solder tip is too small
 
+![assembled PCB](photos/pcb_assembled.jpg)
+
+
+
+##Update 26.03.26
+
+After some more testing it was obvious that the sensor readings were very noisy. However the issue was quite easy to fix. In the inital build of the prototype I fixed the wires from the sensor to the pcb with hot glue. That formed a loop together with the alloy. The Wifi Antenna of the ESP induced voltages into that loop, which ruined the sensor readings. After removing the hot glue and running the wires further away from the antenna, the measurements were fine. 
 
